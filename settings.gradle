@@ -1,0 +1,2 @@
+rootProject.name = "AppMult"
+include ':app'

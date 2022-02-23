@@ -1,2 +1,0 @@
-# AppMult
-Aplicar vários conhecimentos
