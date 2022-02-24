@@ -1,5 +1,6 @@
 package br.com.joaoboscocordeiro.appmult.core.toast
 
+import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.view.View
@@ -7,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import br.com.joaoboscocordeiro.appmult.R
 import br.com.joaoboscocordeiro.appmult.databinding.FragmentToastSnakeBinding
+import br.com.joaoboscocordeiro.appmult.util.toast
 import com.google.android.material.snackbar.Snackbar
 
 /**
@@ -17,6 +19,7 @@ class ToastSnakeFragment : Fragment(R.layout.fragment_toast_snake) {
 
     private lateinit var binding: FragmentToastSnakeBinding
 
+    @SuppressLint("ShowToast")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -26,9 +29,7 @@ class ToastSnakeFragment : Fragment(R.layout.fragment_toast_snake) {
 
         binding.toast.setOnClickListener {
             val msg = "Minha mensagem para você!"
-            Toast
-                .makeText(requireContext(), msg, Toast.LENGTH_SHORT)
-                .show()
+            Toast.makeText(requireContext(), msg, Toast.LENGTH_LONG).show()
         }
 
         // Material design guideline:

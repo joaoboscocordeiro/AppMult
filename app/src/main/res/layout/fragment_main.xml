@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:gravity="center_horizontal"
-            android:text="Google Developer Certification"
+            android:text="@string/text_title_home"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab: Core"
+            android:text="@string/text_codelab_core"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -41,7 +41,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Toast &amp; Snake"
+            android:text="@string/btn_toast_snake"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 

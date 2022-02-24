@@ -121,4 +121,12 @@
     <string name="attachment_summary_on" translatable="false">Baixar automaticamente Anexos de Emails</string>
     <string name="attachment_summary_off" translatable="false">Apenas baixar Anexos quando solicitados manualmente</string>
     <string name="computationError" translatable="false">Impossível Resolver Esse Calculo!</string>
+
+    <!-- Screen Home -->
+    <string name="text_title_home">Developer Mobile Android</string>
+    <string name="text_codelab_core">Codelab: Core</string>
+    <string name="ok">Ok</string>
+    <string name="btn_toast_snake"><![CDATA[Toast & Snake]]></string>
+
+
 </resources>
