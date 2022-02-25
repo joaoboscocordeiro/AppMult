@@ -1,3 +1,3 @@
 # AppMult
 
-#### Exemplos de Toast e Snake
+#### Exemplos de Notifications

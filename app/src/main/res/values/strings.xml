@@ -127,6 +127,8 @@
     <string name="text_codelab_core">Codelab: Core</string>
     <string name="ok">Ok</string>
     <string name="btn_toast_snake"><![CDATA[Toast & Snake]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

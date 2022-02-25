@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_toastSnakeFragment2"
             app:destination="@id/toastSnakeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
     </fragment>
     <action
         android:id="@+id/action_mainFragment_to_toastSnakeFragment"
@@ -27,6 +30,14 @@
             app:destination="@id/mainFragment" />
         <action
             android:id="@+id/action_toastSnakeFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="br.com.joaoboscocordeiro.appmult.core.notification.NotificationFragment"
+        android:label="NotificationFragment" >
+        <action
+            android:id="@+id/action_notificationFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
