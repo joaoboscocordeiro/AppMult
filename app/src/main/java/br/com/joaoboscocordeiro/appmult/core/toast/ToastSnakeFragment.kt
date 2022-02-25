@@ -35,12 +35,12 @@ class ToastSnakeFragment : Fragment(R.layout.fragment_toast_snake) {
         // Material design guideline:
         // https://material.io/archive/guidelines/components/snackbars-toasts.html#snackbars-toasts-usage
         binding.snake.setOnClickListener {
-            Snackbar.make(view, "Oi Snake", Snackbar.LENGTH_SHORT).show()
+            Snackbar.make(view, "Oi Snake", Snackbar.LENGTH_LONG).show()
         }
 
         binding.snakeAction.setOnClickListener {
             Snackbar
-                .make(view, "Snake with Action", Snackbar.LENGTH_SHORT)
+                .make(view, "Snake with Action", Snackbar.LENGTH_LONG)
                 .setAction(R.string.ok) { toast("I am a snake!") }
                 .show()
         }

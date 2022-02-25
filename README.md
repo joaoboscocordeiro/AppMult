@@ -1,4 +1,3 @@
 # AppMult
-Aplicar vários conhecimentos
 
-Exemplos de Toast e Snake
+#### Exemplos de Toast e Snake
