@@ -1,3 +1,3 @@
 # AppMult
 
-#### Exemplos de Notifications
+#### Exemplos de Notifications e Receiver

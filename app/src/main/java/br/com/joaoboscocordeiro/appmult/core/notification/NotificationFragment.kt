@@ -44,7 +44,6 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
         binding.notify.setOnClickListener { sendNotification() }    // enviar notificação padrão
         binding.update.setOnClickListener { updateNotification() }  // customizar / personalizar
         binding.cancel.setOnClickListener { cancelNotification() }  // remover da barra de status
-        // snake.setOnClickListener{ }
     }
 
     private fun setupUiButtonStates( // assegurar o estado inicial dos botões
